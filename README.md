@@ -18,6 +18,24 @@ This repository contains the implementation for the NLP project tasks. All tasks
 1. Launch Jupyter and open the main notebook:
 2. Run the notebook cells sequentially to reproduce the analysis and results for each task.
 
+## Section should be run to generate the table and figure data in the report
+
+The tables and figures in the report are generated from specific sections (tasks) of the main notebook file.  
+Please run the corresponding task sections to reproduce each result:
+
+- **TABLE I** and **Figure 2** → from **Task 1** section  
+- **TABLE II**, **III**, **IV** → from **Task 2** section  
+- **TABLE V** → from **Task 3** section  
+- **TABLE VI** and **VII** → from **Task 4** section  
+- **TABLE VIII** and **IX** → from **Task 5** section  
+- **TABLE X** → from **Task 6** section  
+- **TABLE XI** → from **Task 7** section  
+- **TABLE XII** → from **Task 8** section  
+- **TABLE XIII** and **XIV** → from **Task 9** section  
+- **Figures 3–7** → from **Task 10** section  
+- **Figures 8–10** → from **Task 11** section
+
+All these sections are contained within the main Jupyter Notebook file  [`Project.ipynb`](Project.ipynb).
 
 ## Additional Notes
 - The [`translations_cache/`](translations_cache) directory is used to cache translations for non-English corpora, which speeds up repeated runs of the notebook.
