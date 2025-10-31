@@ -40,6 +40,7 @@ All these sections are contained within the main Jupyter Notebook file  [`Projec
 ## Additional Notes
 - The [`translations_cache/`](translations_cache) directory is used to cache translations for non-English corpora, which speeds up repeated runs of the notebook.
 - Downloaded corpora for NLTK will be stored in your local NLTK data directory. Ensure you have the required permissions or configure `NLTK_DATA` accordingly.
+- The tables in the GitHub preview may not display correctly, but they should appear normal when viewed in a proper Jupyter Notebook environment.
 
 ## Troubleshooting
 - If you encounter missing NLTK resources, run the appropriate `nltk.download()` commands within the notebook or in a separate Python session.
