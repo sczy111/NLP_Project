@@ -1,9 +1,7 @@
 # NLP Project
 
 ## Overview
-This repository contains the implementation for the NLP project tasks. All tasks are implemented within [`Project.ipynb`](Project.ipynb), which includes code cells annotated with task-specific comments. It contains the initial results. 
-
-Note the tables in the GitHub preview may not display correctly, but they should appear normal when viewed in a proper Jupyter Notebook environment.
+This repository contains the implementation for the NLP project tasks. All tasks are implemented within [`Project.ipynb`](Project.ipynb), which includes code cells annotated with task-specific comments. It contains the initial results. Note the tables in the initial results may not display correctly in the GitHub preview , but they should appear normal when viewed in a proper Jupyter Notebook environment.
 
 
 ## Prerequisites
