@@ -1,7 +1,10 @@
 # NLP Project
 
 ## Overview
-This repository contains the implementation for the NLP project tasks. All tasks are implemented within [`Project.ipynb`](Project.ipynb), which includes code cells annotated with task-specific comments. It contains the initial results.
+This repository contains the implementation for the NLP project tasks. All tasks are implemented within [`Project.ipynb`](Project.ipynb), which includes code cells annotated with task-specific comments. It contains the initial results. 
+
+Note the tables in the GitHub preview may not display correctly, but they should appear normal when viewed in a proper Jupyter Notebook environment.
+
 
 ## Prerequisites
 - The project was developed with Python 3.12, other version may work as well.
@@ -40,8 +43,6 @@ All these sections are contained within the main Jupyter Notebook file  [`Projec
 ## Additional Notes
 - The [`translations_cache/`](translations_cache) directory is used to cache translations for non-English corpora, which speeds up repeated runs of the notebook.
 - Downloaded corpora for NLTK will be stored in your local NLTK data directory. Ensure you have the required permissions or configure `NLTK_DATA` accordingly.
-- The tables in the GitHub preview may not display correctly, but they should appear normal when viewed in a proper Jupyter Notebook environment.
-
 ## Troubleshooting
 - If you encounter missing NLTK resources, run the appropriate `nltk.download()` commands within the notebook or in a separate Python session.
 - For GPU acceleration with PyTorch, ensure the appropriate CUDA-enabled version is installed on your system.
